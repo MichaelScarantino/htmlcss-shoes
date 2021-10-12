@@ -1,0 +1,82 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.shoes-vh{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.shoes-and-description{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 48px;
+}
+
+.yellow-text{
+    color: #ffff03;
+}
+
+.green-text{
+    color: #018000;
+}
+
+/* NAV */
+.menu{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    z-index: 1;
+}
+
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 30px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    
+     
+}
+
+/* ID SHOES */
+
+/* San Francisco shoes */
+#bgr-san-francisco{
+    background-color: #ff0f17;
+}
+
+/* Tommy Hilfiger shoes */
+#bgr-tommmy-hilfiger{
+    background-color: #018000;
+}
+
+/* Converse shoes */
+#bgr-converse{
+    background-color: #ffff03;
+}
